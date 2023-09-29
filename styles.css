@@ -1,6 +1,50 @@
 body {
     display: flex;
-    background-color: beige;
+    flex-direction: column;
+    background-color: white;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    min-height: 100vh;
 }
+
+img {
+    max-width: 120px;
+}
+
+.firstSection {
+    display: flex;
+    background-color: #1f2937;
+    flex-grow: 3;
+}
+
+.secondSection {
+    display: flex;
+    flex-grow: 2;
+}
+
+.thirdSection {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-grow: 2;
+}
+
+.fourthSection {
+    display: flex;
+    flex-grow: 2;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color:white;
+    flex-grow: 1;
+    margin-top: auto;
+}
+
+.actionDiv, .buttonTwo {
+    display: flex;
+    background-color: #3882F6;
+}
+
