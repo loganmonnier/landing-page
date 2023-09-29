@@ -31,6 +31,8 @@ img {
 .fourthSection {
     display: flex;
     flex-grow: 2;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
@@ -46,5 +48,33 @@ img {
 .actionDiv, .buttonTwo {
     display: flex;
     background-color: #3882F6;
+}
+
+.actionDiv {
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    color: white
+}
+
+.action {
+    font-weight: bold
+    font-size: 25px;
+}
+
+.buttonBoxTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthText {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonTwo {
+    border-color: white;
 }
 
