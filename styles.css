@@ -9,8 +9,7 @@ body {
 
 img {
     max-width: 120px;
-    border-style: groove;
-    border: 10px;
+    border: 3px solid;
     border-color: #3882F6;
     border-radius: 5px;
 }
@@ -42,7 +41,7 @@ img {
     flex-direction: row;
     align-items: start;
     justify-content: space-evenly;
-    margin: 30px;
+    margin: 10px;
     gap: 50px;
 }
 
