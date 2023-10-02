@@ -92,7 +92,7 @@ img {
     align-items: start;
     justify-content: space-evenly;
     margin: 10px;
-    gap: 50px;
+    gap: 10px;
 }
 
 .caption {
